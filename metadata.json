@@ -1,0 +1,8 @@
+{
+  "name": "ChatApp",
+  "description": "یک چت اپلیکیشن بلادرنگ بر پایه ری‌اکت، سوکت‌آی‌او و سی‌اس‌اس ماژول به همراه احراز هویت، اتاق‌های عمومی و چت خصوصی.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

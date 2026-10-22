@@ -1,0 +1,29 @@
+.appContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f5f9;
+  overflow: hidden;
+}
+
+.sidebarWrapper {
+  height: 100%;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.chatAreaWrapper {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .sidebarWrapperMobileHidden {
+    display: none;
+  }
+  .chatAreaWrapperMobileHidden {
+    display: none;
+  }
+}
